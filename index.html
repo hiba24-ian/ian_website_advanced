@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>IAN Web Studio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body onload="AOS.init();">
+  <header>
+    <div class="logo" data-aos="fade-down">IAN</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-text" data-aos="fade-up">
+      <h1>Innovative Design. Powerful Impact.</h1>
+      <p>Transforming your ideas into digital realities.</p>
+    </div>
+  </section>
+
+  <section id="about" data-aos="fade-up">
+    <h2>About IAN</h2>
+    <p>We are a modern web design agency based in Ireland, delivering visually stunning and user-focused websites for small businesses and startups.</p>
+  </section>
+
+  <section id="services" data-aos="fade-up">
+    <h2>Our Services</h2>
+    <div class="cards">
+      <div class="card">Web Design</div>
+      <div class="card">Responsive Layout</div>
+      <div class="card">Brand Identity</div>
+      <div class="card">Site Maintenance</div>
+    </div>
+  </section>
+
+  <section id="portfolio" data-aos="fade-up">
+    <h2>Portfolio</h2>
+    <p>Check out some of our recent projects and designs (coming soon...)</p>
+  </section>
+
+  <section id="contact" data-aos="fade-up">
+    <h2>Contact</h2>
+    <form action="https://formspree.io/f/yourformid" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="_replyto" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 IAN Web Studio. Designed with passion.</p>
+  </footer>
+</body>
+</html>
